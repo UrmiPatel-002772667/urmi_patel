@@ -6,8 +6,8 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 - **About Me**: Learn about my background, skills, and interests.
 - **Skills**: Highlights of my technical and professional skills.
-- **Education**:
-- **Experience**:
+- **Education**: Highlights of my academic achievements.
+- **Experience**: An overview of my professional journey.
 - **Projects**: A curated list of projects demonstrating my work.
 - **Certificates**: Showcase of certifications earned.
 - **Contact**: Easy ways to connect with me.
@@ -26,14 +26,36 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 ```plaintext
 ├── src
+│   ├── assets
+│   │   ├── favicon.ico
+│   │   ├── img
 │   ├── components
 │   │   ├── Banner.js
-│   │   ├── Navbar.js
-│   │   ├── Skills.js
 │   │   ├── Certificates.js
+│   │   ├── Education.js
+│   │   ├── Experience.js
+│   │   ├── Footer.js
+│   │   ├── Navbar.js
+│   │   ├── ProjectCard.js
+│   │   ├── Projects.js
+│   │   ├── Skills.js
+│   │   ├── Words.js
+│   ├── style
+│   │   ├── Banner.css
+│   │   ├── Certificates.css
+│   │   ├── Education.css
+│   │   ├── Experience.css
+│   │   ├── Footer.css
+│   │   ├── Navbar.css
+│   │   ├── Projects.css
+│   │   ├── Skills.css
+│   └── App.css
 │   └── App.js
+│   └── index.css
+│   └── index.js
 ├── public
 │   ├── index.html
+│   ├── App.js
 └── README.md
 ```
 
@@ -57,13 +79,10 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
    ```
 
 ## 🌟 Live Demo
-
 Check out the live version of my portfolio [here](http://urmipatel.vercel.app/).
 
----
 
 ## 👩‍💻 Author
-
 - **Urmi Patel**
 - LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/urmipatel2001/)
 - GitHub: [UrmiPatel-002772667](https://github.com/UrmiPatel-002772667)

@@ -1,0 +1,70 @@
+.skill {
+    position: relative;
+    background-image: url('../assets/img/bgs.PNG');
+    }
+  .skill h2 {
+      font-size: 45px;
+      font-weight: 700;
+    color: #256D85;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .word-details {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .skill {
+    padding: 50px 100px;
+  }
+  .word-details {
+    top: 300px;
+    font-size: 38px;
+  }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .skill {
+    padding: 50px 80px;
+  }
+  .word-details {
+    top: 290px;
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .skill {
+    padding: 40px 40px;
+  }
+  .word-details {
+    top: 270px;
+    font-size: 15px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .skill {
+    padding: 30px 20px;
+    background-size: cover;
+  }
+  .word-details {
+    top: 250px;
+    padding: 8px;
+    font-size: 14px;
+  }
+}
